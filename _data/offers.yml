@@ -1,0 +1,192 @@
+################################################################################
+#
+#   iceland
+#
+################################################################################
+
+- group: iceland
+  title: Phänomenale Naturerlebnisse in Island
+  id: phanomenale-naturerlebnisse-in-island
+  location: Hótel Ísland, Reykjavík, Island
+  description: Polarlichtmagie und winterliche Naturabenteuer auf Island
+  price: 699
+  price-description: pro Person für 3 Nächte
+  saved: 24
+  link: http://bit.ly/2sR31YH
+
+- group: iceland
+  title: Moderne Welt & unberührte Natur in Island
+  id: moderne-welt-unberührte-natur-in-island
+  location: CenterHotel Skjaldbreid, Reykjavik, Island
+  description: "Winterliche Entdeckerreise auf die Vulkaninsel – inkl. Frühstück & spätem Check-out"
+  price: 125
+  price-description: pro Zimmer pro Nacht
+  saved: 43
+  link: http://bit.ly/2I2Lz8f
+
+- group: iceland
+  title: "Spektakulär & wunderschön: Islands Winterwelt"
+  id: spektakulär-wunderschön-islands-winterwelt
+  location: Icelandair Hotel Reykjavík Marina, Reykjavík, Island
+  description: "Islands Polarlichter und Natur entdecken – inkl. Flügen, Transfers, Frühstück & Touren nach Wahl "
+  price: 769
+  price-description: pro Person für 3 Nächte
+  saved: 18
+  link: http://bit.ly/2yo16jF
+
+- group: iceland
+  title: Malerisches Island & Kreuzfahrt durch Grönland
+  id: malerisches-island-kreuzfahrt-durch-grönland
+  location: MS Ocean Diamond
+  description: "Polarmeer-Kreuzfahrt – inkl. Flug ab Island, Exkursionen & optional Flügen ab Deutschland "
+  price: 2649
+  price-description: pro Person für 10 Nächte
+  saved: 53
+  link: http://bit.ly/2ypOOqY
+
+- group: iceland
+  title: Erlebnisreise zu den Wundern Islands
+  id: erlebnisreise-zu-den-wundern-islands
+  location: Reykjavík, Golden-Circle, Vík, Jökulsarlon, Südküste, Blaue Lagune
+  description: "Packende Reise zu den Highlights Islands – inkl. Flügen, Transfers, Frühstück, Touren & Extras "
+  price: 1099
+  price-description: pro Person für 4 Nächte
+  saved: 24
+  link: http://bit.ly/2tiW2ao
+
+
+
+################################################################################
+#
+#   morocco
+#
+################################################################################
+
+- group: morocco
+  title: Marrakesch – Perle Marokkos
+  id: marrakesch-perle-marokkos
+  location: Angsana Riads Collection, Marrakesch, Marokko
+  description: "Orientalische Oase: Traditioneller Riad in der Medina von Marrakesch"
+  price: 499
+  price-description: pro Person für 4 Nächte
+  saved: 0
+  link: http://bit.ly/2t1iKUd
+
+- group: morocco
+  title: Luxus-Suite im Orient
+  id: luxus-suite-im-orient
+  location: Hivernage Secret Suites & Garden, Marrakesch, Marokko
+  description: "Art-déco-Traum im orientalischen Marrakesch – inkl. Frühstück, Cocktail & Extras"
+  price: 56
+  price-description: Pro Person pro Nacht
+  saved: 51
+  link: http://bit.ly/2HZJsC9
+
+
+
+################################################################################
+#
+#   new-york
+#
+################################################################################
+
+- group: new-york
+  title: WestHouse Hotel
+  id: westhouse-hotel
+  location: Manhattan, New York, USA
+  description: Ein Hauch von altem Hollyood im Herzen Manhattans
+  price: 127
+  price-description: pro Zimmer pro Nacht
+  saved: 46
+  link: http://bit.ly/2k5RTm1
+
+- group: new-york
+  title: Park Central Hotel
+  id: park-central-hotel
+  location: Manhattan, New York, USA
+  description: In einer Hotelikone aus der Jazz-Ära mitten im Zentrum von Manhattan logieren
+  price: 97
+  price-description: pro Zimmer pro Nacht
+  saved: 31
+  link: http://bit.ly/2KlzlJA
+
+- group: new-york
+  title: Eleganter Komfort im Herzen von Brooklyn
+  id: eleganter-komfort-im-herzen-von-brooklyn
+  location: Dazzler Brooklyn, New York, USA
+  description: Nahe der Brooklyn Bridge und Manhattans Skyline stilvoll modern residieren
+  price: 130
+  price-description: pro Unterkunft pro Nacht
+  saved: 33
+  link: http://bit.ly/2rDdwhS
+
+- group: new-york
+  title: The Willamsburg Hotel
+  id: the-willamsburg-hotel
+  location: Brooklyn, New York, USA
+  description: Designverliebtes Boutiquehotel mit Manhattan-Panorama
+  price: 164
+  price-description: pro Zimmer pro Nacht
+  saved: 45
+  link: http://bit.ly/2KTY7lf
+
+- group: new-york
+  title: The Wagner at the Battery
+  id: the-wagner-at-the-battery
+  location: Lower Manhattan, New York, USA
+  description: Elegantes NYC-Hotel mit Blick auf den Hudson River und die Freiheitsstatue
+  price: 188
+  price-description: pro Zimmer pro Nacht
+  saved: 28
+  link: http://bit.ly/2LDVBjd
+
+- group: new-york
+  title: Iberostar 70 Park Avenue
+  id: iberostar-70-park-avenue
+  location: New York, USA
+  description: Stylischer Boutique-Charme im Herzen Manhattans
+  price: 176
+  price-description: pro Zimmer pro Nacht
+  saved: 41
+  link: http://bit.ly/2kwsDFE
+
+- group: new-york
+  title: The Roger New York
+  id: the-roger-new-york
+  location: Midtown Manhattan, New York, USA
+  description: Urbaner New-York-Lifestyle mit Bestlage im NoMad-Viertel
+  price: 126
+  price-description: pro Zimmer pro Nacht
+  saved: 48
+  link: http://bit.ly/2y0YyI8
+
+- group: new-york
+  title: Paramount Hotel
+  id: paramount-hotel
+  location: Times Square, Manhattan, New York, USA
+  description: Historisches Boutiquehotel im Herzen Manhattans
+  price: 114
+  price-description: pro Zimmer pro Nacht
+  saved: 40
+  link: http://bit.ly/2JvQ7db
+
+- group: new-york
+  title: The William
+  id: the-william
+  location: New York City, USA
+  description: "New York super zentral: Boutiquehotel unweit des Times Square"
+  price: 162
+  price-description: pro Zimmer pro Nacht
+  saved: 55
+  link: http://bit.ly/2Ml8YoN
+
+- group: new-york
+  title: Einmal am Times Square Silvester feiern
+  id: einmal-am-times-square-silvester-feiern
+  location: Millennium Hilton New York Downtown, New York, USA
+  description: "New York zum Jahreswechsel: Unvergessliches Silvester im Big Apple"
+  price: 1399
+  price-description: pro Person für 4 Nächte
+  saved: 8
+  link: http://bit.ly/2LGSIxm
+

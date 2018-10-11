@@ -1,0 +1,156 @@
+// general styles for the project that wouldn't be a reuseable component
+
+.bg {
+  &--white { background-color: $white; }
+  &--grey-light { background-color: $grey-light; }
+  &--grey-lighter { background-color: $grey-lighter; }
+  &--grey-lightest { background-color: $grey-lightest; }
+  &--grey { background-color: $grey; }
+  &--grey-dark { background-color: $grey-dark; }
+  &--grey-darker { background-color: $grey-darker; }
+  &--grey-darkest { background-color: $grey-darkest; }
+  // images
+  &--fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+.iam {
+  &__chasing {
+    width: 400px;
+    max-width: 90%;
+    margin: auto auto $s4;
+    background-image: url('../img/content/iamchasing.svg');
+    background-size: cover;
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 9.44%;
+    }
+  }
+}
+
+
+
+.journey {
+  // Video section
+  &__video { z-index: $z-content-upper; }
+  &__video-section { position: relative; }
+  &__video-fade {
+    z-index: $z-content;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/icons/gradient--grey-darkest.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+  // Photo sections
+  &__photo {}
+  &__photo-image {}
+  &__photo-text {}
+  &__photo-map {
+    width: 480px;
+  }
+  // Conclusion section
+  &__conclusion {
+    &-expert {
+      position: relative;
+      padding: $s4;
+      margin-left: $s4;
+      margin-top: $s4;
+      @include bp($xl){
+        margin: 0;
+      }
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      &:before {
+        top: 0;
+        left: 0;
+        background-image: url('../img/icons/frame-tl.svg');
+      }
+      &:after {
+        bottom: 0;
+        right: 0;
+        background-image: url('../img/icons/frame-br.svg');
+      }
+    }
+  }
+}
+
+
+
+.testimonial {
+  position: relative;
+  &__carousel {
+    position: relative;
+  }
+  &__slide {
+    @include background-attributes();
+    min-height: 500px;
+    padding: $s10 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  &__content {
+    margin-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    &-image {
+      height: 50px;
+      width: 50px;
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  }
+
+  .carousel-nav { pointer-events: none; }
+  .carousel-navitem { pointer-events: all; }
+}
+
+
+
+.inspiration {
+  &__gallery {
+    position: relative;
+    &-content { position: relative; z-index: 1; }
+    &-fade {
+      z-index: $z-content;
+      height: 30%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-image: url(../img/icons/gradient--grey-darkest.png);
+      background-size: auto 100%;
+      background-repeat: repeat-x;
+      background-position: bottom;
+    }
+  }
+}
+
+
+
+.competition {
+  &__form {
+    overflow: hidden;
+  }
+}
