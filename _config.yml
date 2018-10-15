@@ -11,10 +11,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/nikon" # the subpath of your site, e.g. /blog/
-img:     "/de/nikon/_assets/img"
-css:     "/de/nikon/_assets/css"
-js:      "/de/nikon/_assets/js"
+baseurl: "/de/finnland" # the subpath of your site, e.g. /blog/
+img:     "/de/finnland/_assets/img"
+css:     "/de/finnland/_assets/css"
+js:      "/de/finnland/_assets/js"
 
 
 # Build settings

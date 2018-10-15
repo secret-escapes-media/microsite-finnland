@@ -1,10 +1,10 @@
 ################################################################################
 #
-#   iceland
+#   kuusamo
 #
 ################################################################################
 
-- group: iceland
+- group: kuusamo
   title: Phänomenale Naturerlebnisse in Island
   id: phanomenale-naturerlebnisse-in-island
   location: Hótel Ísland, Reykjavík, Island
@@ -14,7 +14,7 @@
   saved: 24
   link: http://bit.ly/2sR31YH
 
-- group: iceland
+- group: kuusamo
   title: Moderne Welt & unberührte Natur in Island
   id: moderne-welt-unberührte-natur-in-island
   location: CenterHotel Skjaldbreid, Reykjavik, Island
@@ -24,17 +24,17 @@
   saved: 43
   link: http://bit.ly/2I2Lz8f
 
-- group: iceland
+- group: kuusamo
   title: "Spektakulär & wunderschön: Islands Winterwelt"
   id: spektakulär-wunderschön-islands-winterwelt
-  location: Icelandair Hotel Reykjavík Marina, Reykjavík, Island
+  location: kuusamoair Hotel Reykjavík Marina, Reykjavík, Island
   description: "Islands Polarlichter und Natur entdecken – inkl. Flügen, Transfers, Frühstück & Touren nach Wahl "
   price: 769
   price-description: pro Person für 3 Nächte
   saved: 18
   link: http://bit.ly/2yo16jF
 
-- group: iceland
+- group: kuusamo
   title: Malerisches Island & Kreuzfahrt durch Grönland
   id: malerisches-island-kreuzfahrt-durch-grönland
   location: MS Ocean Diamond
@@ -44,7 +44,7 @@
   saved: 53
   link: http://bit.ly/2ypOOqY
 
-- group: iceland
+- group: kuusamo
   title: Erlebnisreise zu den Wundern Islands
   id: erlebnisreise-zu-den-wundern-islands
   location: Reykjavík, Golden-Circle, Vík, Jökulsarlon, Südküste, Blaue Lagune
@@ -86,11 +86,11 @@
 
 ################################################################################
 #
-#   new-york
+#   helsinki
 #
 ################################################################################
 
-- group: new-york
+- group: helsinki
   title: WestHouse Hotel
   id: westhouse-hotel
   location: Manhattan, New York, USA
@@ -100,7 +100,7 @@
   saved: 46
   link: http://bit.ly/2k5RTm1
 
-- group: new-york
+- group: helsinki
   title: Park Central Hotel
   id: park-central-hotel
   location: Manhattan, New York, USA
@@ -110,7 +110,7 @@
   saved: 31
   link: http://bit.ly/2KlzlJA
 
-- group: new-york
+- group: helsinki
   title: Eleganter Komfort im Herzen von Brooklyn
   id: eleganter-komfort-im-herzen-von-brooklyn
   location: Dazzler Brooklyn, New York, USA
@@ -120,7 +120,7 @@
   saved: 33
   link: http://bit.ly/2rDdwhS
 
-- group: new-york
+- group: helsinki
   title: The Willamsburg Hotel
   id: the-willamsburg-hotel
   location: Brooklyn, New York, USA
@@ -130,7 +130,7 @@
   saved: 45
   link: http://bit.ly/2KTY7lf
 
-- group: new-york
+- group: helsinki
   title: The Wagner at the Battery
   id: the-wagner-at-the-battery
   location: Lower Manhattan, New York, USA
@@ -140,7 +140,7 @@
   saved: 28
   link: http://bit.ly/2LDVBjd
 
-- group: new-york
+- group: helsinki
   title: Iberostar 70 Park Avenue
   id: iberostar-70-park-avenue
   location: New York, USA
@@ -150,17 +150,17 @@
   saved: 41
   link: http://bit.ly/2kwsDFE
 
-- group: new-york
+- group: helsinki
   title: The Roger New York
-  id: the-roger-new-york
+  id: the-roger-helsinki
   location: Midtown Manhattan, New York, USA
-  description: Urbaner New-York-Lifestyle mit Bestlage im NoMad-Viertel
+  description: Urbaner helsinki-Lifestyle mit Bestlage im NoMad-Viertel
   price: 126
   price-description: pro Zimmer pro Nacht
   saved: 48
   link: http://bit.ly/2y0YyI8
 
-- group: new-york
+- group: helsinki
   title: Paramount Hotel
   id: paramount-hotel
   location: Times Square, Manhattan, New York, USA
@@ -170,7 +170,7 @@
   saved: 40
   link: http://bit.ly/2JvQ7db
 
-- group: new-york
+- group: helsinki
   title: The William
   id: the-william
   location: New York City, USA
@@ -180,7 +180,7 @@
   saved: 55
   link: http://bit.ly/2Ml8YoN
 
-- group: new-york
+- group: helsinki
   title: Einmal am Times Square Silvester feiern
   id: einmal-am-times-square-silvester-feiern
   location: Millennium Hilton New York Downtown, New York, USA

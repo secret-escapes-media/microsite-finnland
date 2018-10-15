@@ -1,12 +1,12 @@
 
 
 
-- id: iceland-video
+- id: kuusamo-video
   youtube-id: bYnO3H0OE-4
   page: journey
   pages:
     - id: overview
-    - id: iceland
+    - id: kuusamo
 
 
 
@@ -19,10 +19,10 @@
 
 
 
-- id: new-york-video
+- id: helsinki-video
   youtube-id: 45EOPqC3bWY
   page: journey
   pages:
     - id: overview
-    - id: new-york
+    - id: helsinki
 

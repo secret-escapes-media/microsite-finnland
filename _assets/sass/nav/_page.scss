@@ -3,7 +3,7 @@
 $page-nav-height:    56px;
 $page-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $grey-dark;
+$nav-color:          $vf-blue;
 
 
 // global site nav height
@@ -21,7 +21,7 @@ $nav-color:          $grey-dark;
   top: 0; left: 0;
   z-index: $z-nav;
   width: 100%;
-  background-color: rgba($nav-color,0.5);
+  background-color: rgba($nav-color,1);
   text-align: center;
 
 
@@ -98,8 +98,8 @@ $nav-color:          $grey-dark;
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($nav-color,1); }
+    &.is-current      { background-color: rgba($vf-darkblue,1); }
+    .no-touch &:hover { background-color: rgba($vf-darkblue,1); }
   }
 
   // js-sticky-nav style

@@ -9,7 +9,7 @@
     <p class="text--lg">Das ist Eleanor, Managing Editor von Secret Escapes UK. Sie liebt es, zu reisen und ihre Abenteuer zu dokumentieren. Mit einer Nikon-Spiegelreflexkamera bringt sie ihre Aufnahmen auf das nächste Level, indem Sie zusammen mit Fotograf Craig Island erkundet und lernt, wie man die besten Schnappschüsse in diesem atemberaubenden Land macht.</p>
   section: photographers
   pages:
-    - id: iceland
+    - id: kuusamo
 
 
 
@@ -21,7 +21,7 @@
     <p class="text--lg">Craig hat schon die ganze Welt bereist und seine inspirierenden Panoramabilder haben ihn zu einem der populärsten Reisefotografen gemacht. Er hat bereits zuvor in Island gedreht und verfügt über Insider-Wissen zu den besten Hot-Spots, um diese sensationellen Bilder einzufangen.</p>
   section: photographers
   pages:
-    - id: iceland
+    - id: kuusamo
 
 
 
@@ -57,7 +57,7 @@
     <p class="text--lg">Marianna ist Editorial Managerin für Italien bei Secret Escapes. Ihre Leidenschaft für das Geschichtenerzählen nutzt sie auch für die Dokumentation ihrer Reisen in sozialen Netzwerken und Blogs. Um dies zu ergänzen, wollte sie bei Ihrem Ausflug in das legendäre New York mehr über die Fotografie mit einer Spiegelreflexkamera erfahren.</p>
   section: photographers
   pages:
-    - id: new-york
+    - id: helsinki
 
 
 
@@ -69,7 +69,7 @@
     <p class="text--lg">Victoria lebt derzeit nach längerem Auslandsaufenthalt wieder in London. Mit 16 Jahren begann sie mit der analogen Nikon-Kamera ihres Stiefvaters zu fotografieren und liebt das Reisen in fremde Städte und andere Kulturen. Ihre liebste Reisebegleitung ist – neben ihrem Mann – natürlich ihre Kamera.</p>
   section: photographers
   pages:
-    - id: new-york
+    - id: helsinki
 
 
 

@@ -25,7 +25,7 @@
     &:hover { background-color: $orange-dark; }
   }
   &--outline {
-    color: inherit;
+    color: $white;
     &:before {
       // button border within original padding
       content: '';
@@ -34,18 +34,19 @@
       left: 0;
       right: 0;
       bottom: 0;
-      border: 1px solid $orange;
+      border: 1px solid $vf-pink;
       border-radius: inherit;
     }
     &:hover {
-      color: $white;
-      background-color: $orange;
+      color: $vf-pink;
+      background-color: $white;
+
     }
     &-yellow {
       &:before { border: 1px solid $n-yellow; }
       &:hover {
         background-color: $n-yellow;
-        color: $grey-darkest;
+        color: $black;
       }
     }
     &-white {
@@ -56,7 +57,18 @@
       }
     }
   }
-  &--solid { background-color: $n-yellow; color: $grey-darkest;
-    &:hover { background-color: darken($n-yellow,5); }
+  &--solid {
+    background-color: $vf-pink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(135deg, $vf-gr-orange, $vf-gr-pink); /* Standard syntax (must be last) */
+     color: $white;
+
+    &:hover { background-color: $vf-pink; background-image: none;}
   }
+  &--yellow {
+    background-color: $n-yellow;
+     color: $black;
+
+    &:hover { background-color: $n-yellow; background-image: none;}
+  }
+
 }

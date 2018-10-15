@@ -12,7 +12,7 @@ $group-nav-color:  $grey-darkest;
   justify-content: space-between;
   height: $group-nav-height;
   width: 100%;
-  background-color: rgba($group-nav-color,.8);
+  background-color: rgba($group-nav-color,.5);
   @include transition;
   transform: scaleY(0);
   transform-origin: top center;

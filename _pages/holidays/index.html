@@ -6,19 +6,19 @@ nav: true
 nav-order: 8
 
 group-sections:
-  - id: iceland
+  - id: kuusamo
     title: Island Reisen
   - id: morocco
     title: Marokko Reisen
-  - id: new-york
+  - id: helsinki
     title: New York Reisen
 
 page-nav:
-  - id: iceland
+  - id: kuusamo
     title: Island Reisen
   - id: morocco
     title: Marokko Reisen
-  - id: new-york
+  - id: helsinki
     title: New York Reisen
 
 banner:
@@ -45,8 +45,8 @@ intro:
 
 <div class="container vpad--xl">
 
-  {% assign iceland-offers = site.data.offers | where:'group','iceland' | sort:'saved' | reverse %}
-  <div class="wp" id="iceland"></div>
+  {% assign kuusamo-offers = site.data.offers | where:'group','kuusamo' | sort:'saved' | reverse %}
+  <div class="wp" id="kuusamo"></div>
   <div class="vpad--xl">
     <div class="text--center">
       <h2 class="title title--lg text--bold">Island Reisen</h2>
@@ -54,7 +54,7 @@ intro:
       <div class="space--lg"></div>
     </div>
     <div class="row row--xl-6-6 row--gutters-lg">
-      {% for offer in iceland-offers %}
+      {% for offer in kuusamo-offers %}
         <div class="col">
           {% include offer/offer.html %}
         </div>
@@ -79,8 +79,8 @@ intro:
     </div>
   </div>
 
-  {% assign new-york-offers = site.data.offers | where:'group','new-york' | sort:'saved' | reverse %}
-  <div class="wp" id="new-york"></div>
+  {% assign helsinki-offers = site.data.offers | where:'group','helsinki' | sort:'saved' | reverse %}
+  <div class="wp" id="helsinki"></div>
   <div class="vpad--xl">
     <div class="text--center">
       <h2 class="title title--lg text--bold">New York Reisen</h2>
@@ -88,7 +88,7 @@ intro:
       <div class="space--lg"></div>
     </div>
     <div class="row row--xl-6-6 row--gutters-lg">
-      {% for offer in new-york-offers %}
+      {% for offer in helsinki-offers %}
         <div class="col">
           {% include offer/offer.html %}
         </div>
