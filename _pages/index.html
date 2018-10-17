@@ -6,13 +6,11 @@ nav-order: 1
 title: Überblick
 
 banner:
-  title-sup: >
+  title-sup: Wilde Natur & urbanes Design
   title: Finnland
 
 intro: >
-  <p class="text--xl text--bold">Folgen Sie Secret Escapes und Nikon zu den fotogensten Reisezielen der Welt.</p>
-  <p class="text--xl">Wir haben 3 fotobegeisterte Secret Escapes-Kolleg(inn)en auf die Reise geschickt, um in Begleitung professioneller Fotografen zu lernen, wie die perfekte Aufnahme gelingt. Zusammen haben sie die Naturgewalt Islands erkundet, die Farbenpracht Marokkos und die ikonischste Metropole überhaupt: New York City – begleiten Sie uns auf eine spektakuläre fotografische Reise.</p>
-  <p class="text--xl">Lassen Sie sich inspirieren und schüren Sie mit Reiseberichten und unschlagbaren Hotelangeboten die eigene Wanderlust.</p>
+  <p class="text--lg text--light">Wie fotogen ist Finnland? Das wollten wir zusammen mit NIKON School Fotograf André herausfinden und haben ihn mit der Unterstützung von Visit Helsinki und Visit Espoo im September 2018 nach Finnland geschickt. Seine Reise führte ihn von Kuusamo, nördlich von Lappland, über Helsinki nach Espoo. Immer mit dabei: die Systemkamera Nikon Z7.</p>
 ---
 
 
@@ -25,48 +23,30 @@ intro: >
 
 
 
+<div class="container vpad--xxl">
+
 {% assign destinations = site.html_pages | where: 'layout','journey' | sort:'nav-order' %}
 {% for destination in destinations %}
-<div class="vpad--xxl bg--fixed" style="background-image:url({{site.img}}/content/{{page.id}}/{{destination.id}}-bg.png);">
-  <div class="container">
-    <div class="bob{% cycle "", " bob--swap" %}">
 
-      <div class="bob__img">
 
-        <div class="boxpad--sm">
-          <a href="javascript:void(0);" data-modal-item="{{destination.id}}-video" class="js-open-modal bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/overview/{{destination.id}}.jpg');">
-            <span class="bg-img__play bg-img--zoom"></span>
-          </a>
-        </div>
+  <div class="bob  {% cycle "", " bob--swap" %} vpad--lg">
+    <div class="bob__img">
+      <a href="{{feature.link}}" id="tracking-nikon-{{feature.id}}-image" class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{destination.id}}/one.jpg);" target="_blank">
 
-        <div class="row row--constant-6-6 row--no-gutters">
-          <div class="col">
-            <div class="boxpad--sm">
-              <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/overview/{{destination.id}}-1.jpg');"></div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="boxpad--sm">
-              <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/overview/{{destination.id}}-2.jpg');"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bob__text">
-        <h3 class="title title--xl text--normal">{{destination.title}}</h3>
-        <p class="text--lg">{{destination.intro.parent}}</p>
-        <div class="space--md"></div>
-        <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--solid">{{destination.title}} entdecken</a>
-      </div>
-
+      </a>
+    </div>
+    <div class="bob__text">
+      <h3 class="title title--xl text--bold">{{destination.title}}</h3>
+      <p class="text--md">{{destination.intro.content}}</p>
+      <div class="space--md"></div>
+      <a href="{{site.baseurl}}{{destination.url}}"  class="btn btn--solid" >Jetzt entdecken</a>
     </div>
   </div>
-</div>
+
 {% endfor %}
 
 
+</div>
 
 
-{% include page/promo-nikon.html %}
 {% include page/promo-competition.html %}

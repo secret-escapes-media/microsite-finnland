@@ -18,6 +18,8 @@ layout: default
 
 
 
+
+
 {% for section in page.sections %}
 
 <div class="wp" id="{{section.id}}"></div>
@@ -41,15 +43,22 @@ layout: default
 <div class="row row--4-4-4 row--gutters">
       {% for poi in section.pois1.items %}
 
+      <div class="col">
+        <a href="javascript:void(0);" data-modal-item="{{poi.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);">
+        <span class="bg-img__expand"></span></a>
+        <div class="space--sm"></div>
+        <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
+        <p>{{poi.content}}</p>
+      </div>
 
-        <div class="col">
+      <!--  <div class="col">
         <a href="{{poi.link}}" target="_blank" class="text--white">
         <div class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);"></div>
         <div class="space--sm"></div>
         <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
         <p>{{poi.content}}</p></a>
       </div>
-      <div class="space--md"></div>
+      <div class="space--md"></div>-->
       {% endfor %}
 </div>
 </div>
@@ -63,11 +72,11 @@ layout: default
     {% for poi in section.pois2.items %}
 
     <div class="col">
-      <a href="{{poi.link}}" target="_blank" class="text--white">
-      <div class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);"></div>
+      <a href="javascript:void(0);" data-modal-item="{{photo.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);">
+      <span class="bg-img__expand"></span></a>
       <div class="space--sm"></div>
       <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
-      <p>{{poi.content}}</p></a>
+      <p>{{poi.content}}</p>
     </div>
     {% endfor %}
   </div>
@@ -78,6 +87,11 @@ layout: default
 
 
 {% endfor %}
+
+
+
+
+
 
 
 

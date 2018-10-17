@@ -4,9 +4,9 @@
     {% if page.banner.content %}
       {{page.banner.content | liquify}}
     {% else %}
-      <div class="container text--center">
+      <div class="container text--center text--xl">
         {% if page.banner.title-sup %}{{page.banner.title-sup}}{% endif %}
-        <h1 class="banner-title">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+        <h1 class="banner-title vpad--sm">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
         {% if page.banner.title-sub %}{{page.banner.title-sub}}{% endif %}
       </div>
     {% endif %}
