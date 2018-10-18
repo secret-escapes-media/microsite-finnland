@@ -8,22 +8,20 @@ layout: default
 <!-- INTRO SECTION -->
 <div class="bg--grey-darker">
   <div class="wp" id="guide"></div>
-  <div class="container vpad--xxl text--center">
+  <div class="container text--lg vpad--xxl text--center">
     {{page.intro.long}}
 
       {{page.intro.partner-logo.logo}}
     <br>
     {% for partner-logo in page.intro.partner-logos %}
 
-      <img style="height:70px; padding:10px;" src="{{site.img}}/content/{{page.id}}/{{partner-logo.logo}}">
+    <a href="{{partner-logo.link}}" target="_blank">  <img style="height:75px; padding:10px;" src="{{site.img}}/content/{{page.id}}/{{partner-logo.logo}}"></a>
 
     {% endfor %}
 
   </div>
   {% if page.page-nav %}{% include nav/page.html %}{% endif %}
 </div>
-
-
 
 
 
@@ -41,8 +39,9 @@ layout: default
 <div class="bv-parallax bv-parallax--dark" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;">
   <div class="wp" id="guide"></div>
   <div class="container vpad--xxxxl text--center">
-      <h3 class="title title--xl text--bold">{{section.title}}</h3>
-        <div class="space--sm"></div>
+      <h3 class="title title--xl text--bold bv-divider">{{section.title}}</h3>
+
+
     {{section.intro}}
   </div>
 </div>

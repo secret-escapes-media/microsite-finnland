@@ -10,12 +10,12 @@
 
 
 
-- id: morocco-video
-  youtube-id: g5MQqBDaPvc
+- id: nikon-video
+  youtube-id: NAilAxdUhLE
   page: journey
   pages:
     - id: overview
-    - id: morocco
+    - id: nikon
 
 
 
@@ -25,4 +25,3 @@
   pages:
     - id: overview
     - id: helsinki
-

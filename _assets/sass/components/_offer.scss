@@ -4,6 +4,7 @@ $circle-height: 3.4rem; // height for arrow and saved number
 $offer-max-width: 600px;
 
 .offer {
+  font-family: $font-title-01;
   position: relative;
   width: 100%;
   max-width: $offer-max-width;
@@ -44,23 +45,10 @@ $offer-max-width: 600px;
     text-indent: -1.5em;
     font-size: 0.75em;
     line-height: 1.5;
+    color: $vf-blue;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
-    &:before {
-      content: "";
-      display: inline-block;
-      height: 1.5em;
-      width: 1.05em;
-      margin-right: .5em;
-      margin-bottom: .2em;
-      vertical-align: middle;
-      background-image: url( "../img/icons/map-pin.svg" );
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-size: contain;
-    }
   }
   &__bottom {
     display: flex;
@@ -86,10 +74,10 @@ $offer-max-width: 600px;
     min-width: $circle-height;
     min-height: $circle-height;
     margin-left: $s-3;
-    border: 1px solid $orange;
+    border: 1px solid $vf-blue;
     border-radius: $circle-height;
     background-repeat: no-repeat;
-    background-image: url('../img/icons/arrow-right-orange.svg');
+    background-image: url('../img/icons/arrow-right.svg');
     background-size: auto ($circle-height/2.25);
     background-position: 52% center;
   }
@@ -105,7 +93,7 @@ $offer-max-width: 600px;
       color: #fff;
       font-weight: 400;
       line-height: $circle-height;
-      background-color: $orange;
+      background-color: $vf-blue;
       border-radius: $circle-height;
     }
   }
@@ -122,7 +110,7 @@ $offer-max-width: 600px;
     background-color: $grey-lighter;
   }
   &__price {
-    color: $orange;
+    color: $vf-blue;
     font-size: $s2;
     font-weight: 400;
     line-height: 1;

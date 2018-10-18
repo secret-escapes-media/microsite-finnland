@@ -11,15 +11,38 @@ banner:
 
 intro: >
   <p class="text--lg text--light">Wie fotogen ist Finnland? Das wollten wir zusammen mit NIKON School Fotograf André herausfinden und haben ihn mit der Unterstützung von Visit Helsinki und Visit Espoo im September 2018 nach Finnland geschickt. Seine Reise führte ihn von Kuusamo, nördlich von Lappland, über Helsinki nach Espoo. Immer mit dabei: die Systemkamera Nikon Z7.</p>
+
+testimonials:
+
+  - by: Eleanor Cording-Booth
+    destination: "1"
+    content: >
+      Die D7500 ist die perfekte Wahl für ein so spannendes Reiseziel wie Island. Die Abdichtung gegen Witterungseinflüsse bedeutet, dass man draußen in den Elementen tolle Fotos machen kann, ohne die Kamera zu beschädigen. Und mit dem neigbaren Touchscreen erreicht man jeden gewünschten Blickwinkel, ohne sich der Länge nach in den Matsch legen zu müssen.
+
+  - by: Louis Adams
+    destination: "2"
+    content: >
+      Die Nikon D7500 ist super einfach in der Handhabung und macht dabei sensationelle Fotos. In den trubeligen Straßen Marrakeschs fand ich den Serienaufnahmemodus besonders hilfreich, um den richtigen Moment einzufangen. Das ich die Fotos mit der SnapBridge-App direkt auf mein Handy laden konnte, war ein zusätzlicher Bonus!
+
+  - by: Craig Howes
+    destination: "3"
+    content: >
+      Das Fotografieren mit der Nikon D850 hat riesigen Spaß gemacht, denn diese robuste Kamera hat auch den rauen Bedingungen Islands standgehalten. Der Dynamikumfang ist sensationell und eines meiner liebsten Features war der integrierte Zeitraffer für die so willkürlichen Nordlichtern, deren Erscheinen einen mitunter überraschen kann.
+
+
+
 ---
 
 
 
-<div class="bg--grey-darker">
+<div class="bg--grey-darker" style="background-image: url({{site.img}}/content/overview/intro-bg.jpg); background-position:cover; background-position:center center">
   <div class="container container--xxl vpad--xxl text--center">
     {{page.intro}}
   </div>
 </div>
+
+
+
 
 
 
@@ -36,7 +59,8 @@ intro: >
       </a>
     </div>
     <div class="bob__text">
-      <h3 class="title title--xl text--bold">{{destination.title}}</h3>
+      <h3 class="title title--xl bv-divider text--bold">{{destination.title}}</h3>
+
       <p class="text--md">{{destination.intro.content}}</p>
       <div class="space--md"></div>
       <a href="{{site.baseurl}}{{destination.url}}"  class="btn btn--solid" >Jetzt entdecken</a>

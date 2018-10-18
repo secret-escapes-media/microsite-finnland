@@ -58,34 +58,6 @@
 
 ################################################################################
 #
-#   morocco
-#
-################################################################################
-
-- group: morocco
-  title: Marrakesch – Perle Marokkos
-  id: marrakesch-perle-marokkos
-  location: Angsana Riads Collection, Marrakesch, Marokko
-  description: "Orientalische Oase: Traditioneller Riad in der Medina von Marrakesch"
-  price: 499
-  price-description: pro Person für 4 Nächte
-  saved: 0
-  link: http://bit.ly/2t1iKUd
-
-- group: morocco
-  title: Luxus-Suite im Orient
-  id: luxus-suite-im-orient
-  location: Hivernage Secret Suites & Garden, Marrakesch, Marokko
-  description: "Art-déco-Traum im orientalischen Marrakesch – inkl. Frühstück, Cocktail & Extras"
-  price: 56
-  price-description: Pro Person pro Nacht
-  saved: 51
-  link: http://bit.ly/2HZJsC9
-
-
-
-################################################################################
-#
 #   helsinki
 #
 ################################################################################
@@ -189,4 +161,3 @@
   price-description: pro Person für 4 Nächte
   saved: 8
   link: http://bit.ly/2LGSIxm
-
