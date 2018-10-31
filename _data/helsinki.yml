@@ -2,7 +2,10 @@
 
 
 - id: one-1
-  title: "&nbsp;"
+  title: Saunakultur
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -12,7 +15,10 @@
 
 
 - id: one-2
-  title: "&nbsp;"
+  title: Marktplatz & Alte Markthalle
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -22,7 +28,11 @@
 
 
 - id: one-3
-  title: "&nbsp;"
+  title: Design District
+  show: display:none
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -32,7 +42,10 @@
 
 
 - id: one-4
-  title: "&nbsp;"
+  title: Amos Rex
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -42,7 +55,10 @@
 
 
 - id: one-5
-  title: "&nbsp;"
+  title: Küste & Inseln
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -52,7 +68,10 @@
 
 
 - id: one-6
-  title: "&nbsp;"
+  title: Helsinkis Küche
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -63,6 +82,10 @@
 
 - id: two-1
   title: "&nbsp;"
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  show: display:none
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -72,7 +95,10 @@
 
 
 - id: two-2
-  title: "&nbsp;"
+  title: Nuuksio-Nationalpark
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -83,6 +109,10 @@
 
 - id: two-3
   title: "&nbsp;"
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  show: display:none
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page

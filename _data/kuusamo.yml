@@ -2,52 +2,64 @@
 
 
 - id: one-1
-  title: "&nbsp;"
+  title: Kanufahren im Nationalpark Oulanka
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: kuusamo # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: one-2
-  title: "&nbsp;"
-  photographer: Eleanor Cording-Booth
+  title: Rafting auf dem Fluss Kitka im Nationalpark Oulanka
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
   page: kuusamo # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: one-3
-  title: "&nbsp;"
+  title: Wandern im Nationalpark Hossa
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: kuusamo # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: one-4
-  title: "&nbsp;"
+  title: Pistenspaß im Skigebiet Ruka
+  photoshow: display:block
+  videoshow: display:none
+  show: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: kuusamo # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: one-5
-  title: "&nbsp;"
-  photographer:  "&nbsp;"
-  page: kuusamo # group for whole page
-  section: one # group for section of page
-  pages: # modal required on these pages
-    - id: kuusamo
-
-
-- id: one-6
-  title: "&nbsp;"
+  title:
+  photoshow: display:block
+  videoshow: display:none
+  show: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: kuusamo # group for whole page
   section: one # group for section of page
@@ -55,68 +67,99 @@
     - id: kuusamo
 
 
-- id: two-1
-  title: Der Leuchtturm von Dyrhólaey
-  location: Dyrhólaey, Reynisfjara
-  photographer: Eleanor Cording-Booth
-  content: Ich startete weiter oben auf der Klippe, um den Leuchtturm einzufangen, aber Craig meinte, dass ich noch ein paar Meter weiter gehen sollte, um auch den Strand mit in die Aufnahme zu kriegen. Ich finde es klasse, wie diese neue Perspektive die Illusion vermittelt, dass der Strand beinahe unendlich ist – soweit das Auge reicht.
+
+- id: one-6
+  title:
+  photoshow: display:none
+  videoshow: display:block
+  youtube-id: CyL30TS9-hc
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
   page: kuusamo # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
+
+
+- id: two-1
+  title: Bären beobachten
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
 
 
 - id: two-2
   title: "&nbsp;"
-  photographer: Eleanor Cording-Booth
+  photoshow: display:none
+  videoshow: display:block
+  show: display:none
+  youtube-id: 4aBb3pMiLo8
+  orientation: landscape
+  photographer: "&nbsp;"
   page: kuusamo # group for whole page
-  section: two # group for section of page
+  section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: two-3
-  title: "&nbsp;"
+  title: Rentier-Safaris
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: kuusamo # group for whole page
-  section: two # group for section of page
+  section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: three-1
-  title: Der Leuchtturm von Dyrhólaey
-  location: Dyrhólaey, Reynisfjara
-  photographer: Eleanor Cording-Booth
-  content: Ich startete weiter oben auf der Klippe, um den Leuchtturm einzufangen, aber Craig meinte, dass ich noch ein paar Meter weiter gehen sollte, um auch den Strand mit in die Aufnahme zu kriegen. Ich finde es klasse, wie diese neue Perspektive die Illusion vermittelt, dass der Strand beinahe unendlich ist – soweit das Auge reicht.
+  title: "&nbsp;"
+  show: display:none
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
   page: kuusamo # group for whole page
-  section: three # group for section of page
+  section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: three-2
-  title: "&nbsp;"
-  photographer: Eleanor Cording-Booth
+  title: Wild Food
+  show: display:block
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
   page: kuusamo # group for whole page
-  section: three # group for section of page
+  section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo
+
 
 
 - id: three-3
-  title: "&nbsp;"
+  title: Saunatouren
+  show: display:block
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
   photographer: "&nbsp;"
   page: kuusamo # group for whole page
-  section: three # group for section of page
-  pages: # modal required on these pages
-    - id: kuusamo
-
-
-- id: three-4
-  title: "&nbsp;"
-  photographer: "&nbsp;"
-  page: kuusamo # group for whole page
-  section: three # group for section of page
+  section: one # group for section of page
   pages: # modal required on these pages
     - id: kuusamo

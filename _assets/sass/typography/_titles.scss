@@ -92,17 +92,17 @@
   text-transform: uppercase;
   @include font-smoothing;
 
-  font-size: $s5;
-  letter-spacing: .5rem;
+  font-size: $s7;
+  letter-spacing: .3rem;
   @include bp($md){
-    letter-spacing: 1rem;
-    font-size: $s7;
+    letter-spacing: .3rem;
+    font-size: $s8;
   }
   @include bp($xxl){
-    font-size: $s9;
+    font-size: $s10;
   }
   @include bp($xxxl){
-    font-size: $s10;
+    font-size: $s11;
   }
 
 }

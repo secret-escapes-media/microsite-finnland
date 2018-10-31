@@ -126,6 +126,11 @@
   .carousel-navitem { pointer-events: all; }
 }
 
+.carousel-navitem-next:after {
+    right: 0;
+    background-image: url(../img/icons/arrow-right.png);
+}
+
 
 
 .inspiration {
@@ -157,7 +162,7 @@
 
 
 /* ==========================================================================
-   Divider line
+   Divider
    ========================================================================== */
 
 
@@ -169,6 +174,26 @@
   font-size: $s7;
   letter-spacing: -1px;
   margin: 2px;}
+
+
+
+.bv-arrow {
+
+    font-family: $font-title-01;
+    left: 50%;
+    //margin-left: -.8em;
+    width: 1.7em;
+    height: 1.7em;
+    margin: 0 auto;
+    //border: 1px solid $white;
+    //border-radius: $circle-height;
+    background-repeat: no-repeat ;
+    //background-color: $vf-blue;
+    background-image: url('../img/icons/arrow-right.svg');
+    background-size: auto (1.2em/.6);
+    background-position: 52% center;
+    transform: rotate(90deg);
+  }
 
 
 

@@ -18,7 +18,7 @@ banner:
   title-sub:
 
 intro: >
-  <p class="title title--xs text--bold">Unvergessliche Aufnahmen mit der NIKON Z7.</p>
+  <p class="text--xl text--bold">Unvergessliche Aufnahmen mit der NIKON Z7.</p>
   <div class="space--xs"></div>
   <p class="text--lg">Wir haben für Sie den erfahrenen NIKON Fotograf André nach Finnland geschickt, um die besten Motive dieses faszinierenden Landes für Sie festzuhalten. Mit seiner NIKON Z7 hat er im September 2018 Finnlands atemberaubende Natur, wilde Tiere und außergewöhnliche Städte eingefangen. Folgen Sie ihm auf eine ereignisreiche Reise voll reiner Sinneseindrücke und erinnerungswürdiger Begegnungen.</p>
 
@@ -27,7 +27,7 @@ intro: >
 
 
 
-<div class="bg--grey-darker" style="background-image: url({{site.img}}/content/nikon/Nikon_ml_z7_overview.jpg); background-position:cover; background-position:center right">
+<div class="bg--grey-darker bv-parallax" style="background-image: url({{site.img}}/content/nikon/Nikon_ml_z7_overview.jpg);  background-size:100%; background-color:#000;">
   <div class="container container--xxl vpad--xxl text--center">
     {{page.intro}}
   </div>
@@ -50,7 +50,7 @@ intro: >
         <h3 class="title title--lg text--bold bv-divider">{{page.camera.model}}</h3>
         <p class="text--lg">{{page.camera.description}}</p>
          <div class="space--md"></div>
-        <a href="#"  class="btn btn--yellow" target="_blank">Mehr erfahren</a>
+        <a href="javascript:void(0);"  data-modal-item="{{page.id}}-video"  class="js-open-modal btn btn--yellow" target="_blank">Mehr erfahren</a>
       </div>
 
     </div>

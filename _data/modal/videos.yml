@@ -1,14 +1,6 @@
 
 
 
-- id: kuusamo-video
-  youtube-id: bYnO3H0OE-4
-  page: journey
-  pages:
-    - id: overview
-    - id: kuusamo
-
-
 
 - id: nikon-video
   youtube-id: NAilAxdUhLE
@@ -16,12 +8,3 @@
   pages:
     - id: overview
     - id: nikon
-
-
-
-- id: helsinki-video
-  youtube-id: 45EOPqC3bWY
-  page: journey
-  pages:
-    - id: overview
-    - id: helsinki
