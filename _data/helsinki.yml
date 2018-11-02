@@ -3,6 +3,7 @@
 
 - id: one-1
   title: Saunakultur
+  show: display:none
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
@@ -19,7 +20,7 @@
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  photographer: "&nbsp;"
+  photographer: Z 7
   page: helsinki # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -46,7 +47,7 @@
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  photographer: "&nbsp;"
+  photographer: Z 7
   page: helsinki # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -59,7 +60,7 @@
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  photographer: "&nbsp;"
+  photographer: Z 7
   page: helsinki # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages
@@ -81,11 +82,11 @@
 
 
 - id: two-1
-  title: "&nbsp;"
+  title: Haltia-Naturzentrum
+  show: display:none
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  show: display:none
   photographer: "&nbsp;"
   page: helsinki # group for whole page
   section: one # group for section of page
@@ -99,7 +100,7 @@
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
-  photographer: "&nbsp;"
+  photographer: "D850"
   page: helsinki # group for whole page
   section: one # group for section of page
   pages: # modal required on these pages

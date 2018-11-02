@@ -149,6 +149,7 @@ $modaltransition-distance: 4em;
 
     &--landscape {
       width: 100%;
+      height: auto;
       text-align: center;
       img {
         max-width: 100%;
@@ -172,23 +173,25 @@ $modaltransition-distance: 4em;
 
   &__content {
     background-color: rgba($grey-darkest,0.8);
-    border-top: 5px solid $vf-pink;
+    border-top: 2px solid $vf-blue;
     padding: $s2 $s4;
     @include bp($lg){
       position: fixed;
       bottom: 0;
       left: 4em;
       right: 4em;
-      padding: $s4 $s6;
+      padding: $s3 $s5;
     }
     @include bp($xxl){
-      left: 8em;
+
+      border-top: 0 solid $black;
+      left: 4em;
       right: auto;
       width: $xl;
     }
   }
   &__content-toggle {
-    background-color: $vf-pink;
+    background-color: $vf-blue;
     padding: 1em;
     position: absolute;
     left: 0;

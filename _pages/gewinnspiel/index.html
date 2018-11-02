@@ -8,13 +8,12 @@ nav-title: Gewinnspiel
 
 banner:
   title: Gewinnspiel
-  title-sub: Gewinnen Sie ein unvergessliches Erlebnis mit Ihrem Nikon Kamera-Kit
+  title-sub: Gewinnen Sie eine Fotoreise nach Finnland – mit Ihrer eigenen Nikon Kamera.
 
 intro: >
-  <p class="text--xl text--bold">Gewinnen Sie eine Fotoreise nach Finnland – mit Ihrer eigenen Nikon Kamera. </p>
   <p class="text--lg">Begeben Sie sich auf ein einmaliges Abenteuer in die wilde Natur Finnlands inkl. Flügen und Hotel und verwandeln Sie mit der Nikon D3500 atemberaubende Momente in bildgewaltige Fotoaufnahmen für die Ewigkeit. </p>
   <div class="space--lg"></div>
-  <a href="#enter" class="btn btn--yellow btn--lg">Jetzt teilnehmen</a>
+  <a href="#enter" class="btn btn--vf-blue btn--lg">Jetzt teilnehmen</a>
 
 prizes:
 
@@ -30,7 +29,7 @@ prizes:
       <p>Ihre perfekte Reisebegleitung: Das Kamera-Kit Nikon D3500 mit dem Zoomobjektiv AF-P DX NIKKOR 18–55 mm VR. Das Objektiv brilliert mit einer schnellen wie laufruhigen Fokussierung und der DX-Format-Sensor fängt mit 24,2 Megapixeln auch bei schwachem Licht detailreiche Fotos und Full-HD-Filme ein. Die große Akkukapazität garantiert zuverlässige Leistung an langen Outdoor-Tagen und ein tiefer Griff sorgt für besten Halt bei jeder Aufnahme. </p>
     enter-cta: Jetzt teilnehmen
     external-cta: Mehr erfahren
-    external-link:
+    external-link: "http://bit.ly/2F1HeGu"
 
 
 ---
@@ -43,24 +42,28 @@ prizes:
   </div>
 </div>
 
-
+<div class="container container--100 container--no-padding row row--constant-4-4-4 row--no-gutters">
+  <div class="col bg-img bg-img--1-1 bg-img--xxl-16-9" style="background-image: url({{site.img}}/content/competition/01.jpg);"></div>
+  <div class="col bg-img bg-img--1-1 bg-img--xxl-16-9" style="background-image: url({{site.img}}/content/competition/02.jpg);"></div>
+  <div class="col bg-img bg-img--1-1 bg-img--xxl-16-9" style="background-image: url({{site.img}}/content/competition/03.jpg);"></div>
+</div>
 
 
 
 <div class="bg--grey-darker">
   <div class="container vpad--xxl">
     {% for prize in page.prizes %}
-    <div class="row row--gutters row--valign-center vpad--lg{% cycle ""," row--reverse" %}">
-      <div class="col col--6">
-        <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/competition/prize-{{prize.id}}.jpg);"></div>
+    <div class="bob  {% cycle "", " bob--swap" %} vpad--lg">
+      <div class="bob__img">
+        <a href="#enter"  class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/competition/prize-{{prize.id}}.jpg);" ></a>
       </div>
-      <div class="col col--6">
-        <h3 class="title title--sm text--bold">{{prize.title}}</h3>
+      <div class="bob__text">
+        <h3 class="title title--md bv-divider text--bold">{{prize.title}}</h3>
         {{prize.content}}
         <div class="space--md"></div>
-        <a href="#enter" class="btn btn--yellow btn--sm">{{prize.enter-cta}}</a>
+        <a href="#enter" class="btn btn--vf-blue">{{prize.enter-cta}}</a>
         {% if prize.external-cta %}
-          <a href="{{prize.external-link}}" target="_blank" class="btn btn--sm btn--outline btn--outline-white">{{prize.external-cta}}</a>
+          <a href="{{prize.external-link}}" target="_blank" class="btn btn--outline btn--outline-white">{{prize.external-cta}}</a>
         {% endif %}
       </div>
     </div>
@@ -70,19 +73,15 @@ prizes:
 
 
 
+
+
+
+
 <div class="bg--black">
-  <div class="container container--xxl text--center vpad--xxl">
+  <div class="container container--xl text--center vpad--xxl">
     <div class="wp" id="enter"></div>
-    <h3 class="title title--md text--bold bv-divider">Nehmen Sie jetzt am Gewinnpiel teil</h3>
+    <h3 class="title title--md text--bold bv-divider">Nehmen Sie <br>jetzt am Gewinnspiel teil</h3>
     <div class="space--lg"></div>
     <iframe scrolling="no" class="competition__form" src="https://news.secretescapes.de/mediasales_competition_finnland_nov2018/" width="100%" height="600" frameborder="0"></iframe>
   </div>
-</div>
-
-
-
-<div class="container container--100 container--no-padding row row--constant-4-4-4 row--no-gutters">
-  <div class="col bg-img bg-img--3-4 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/competition/01.jpg);"></div>
-  <div class="col bg-img bg-img--3-4 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/competition/02.jpg);"></div>
-  <div class="col bg-img bg-img--3-4 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/competition/03.jpg);"></div>
 </div>

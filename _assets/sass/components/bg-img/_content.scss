@@ -73,6 +73,7 @@
   }
   &:hover &--zoom { transform: scale(1.1); }
 
+  $expand-size-xs: 2.8em;
   $expand-size-sm: 3.2em;
   $expand-size:    4em;
   &__expand {
@@ -97,7 +98,28 @@
     background-color: rgba($grey-darkest,0.8);
     background-size: $expand-size-sm*0.8;
   }
-
+  &__expand-yellow {
+    @include transition();
+    height: $expand-size-sm;
+    width: $expand-size-sm;
+    background-size: $expand-size-sm*0.3;
+    background-image: url(../img/icons/close-black.png);
+    background-color: $n-yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    position: absolute;
+    border-radius: 50px;
+    left: 50%;
+    margin-left: -$expand-size-sm/2;
+    top: 50%;
+    margin-top: -$expand-size-sm/2;
+    z-index: $z-content-upper;
+    @include bp($lg){
+      height: $expand-size-sm;
+      width: $expand-size-sm;
+    }
+  }
   // modifiers
   &--shadow { box-shadow: 0px 0px 30px 0px rgba($grey-darkest,0.8); }
   &--rounded { border-radius: 4px; }

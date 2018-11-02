@@ -7,7 +7,7 @@
   font-size: $s-1;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: .25em;
+  letter-spacing: .15em;
   line-height: 1.33;
   border-radius: 3px;
   cursor: pointer;
@@ -71,8 +71,8 @@
     &:hover { background-color: $n-yellow; background-image: none;}
   }
   &--vf-blue {
-    background-color: $vf-blue;
+    background-color: $vf-darkblue;
      color: $white;}
-  
+
 
 }

@@ -52,22 +52,22 @@ layout: default
 <div class="container vpad--xs">
   <div class="vpad--sm" style="{{section.pois1.visible}}">
 
-<div class="space--lg"></div>
-<div class="row row--4-4-4 row--gutters">
-      {% for poi in section.pois1.items %}
+    <div class="space--lg"></div>
+    <div class="row row--4-4-4 row--gutters">
+          {% for poi in section.pois1.items %}
 
-      <div class="col">
-        <a href="javascript:void(0);" data-modal-item="{{poi.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);">
-        <span class="bg-img__expand"></span></a>
-        <div class="space--sm"></div>
-        <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
-        <p>{{poi.content}}</p>
-      </div>
+          <div class="col">
+            <a href="javascript:void(0);" data-modal-item="{{poi.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);">
+            <span class="bg-img__expand"></span></a>
+            <div class="space--sm"></div>
+            <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
+            <p>{{poi.content}}</p>
+          </div>
 
 
-      {% endfor %}
-</div>
-</div>
+          {% endfor %}
+    </div>
+  </div>
 </div>
 
 <div class="space--xl"></div>

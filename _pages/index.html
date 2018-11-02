@@ -31,8 +31,8 @@ intro: >
 
 <div class="container vpad--xxl">
 
-{% assign destinations = site.html_pages | where: 'layout','journey' | sort:'nav-order' %}
-{% for destination in destinations %}
+  {% assign destinations = site.html_pages | where: 'layout','journey' | sort:'nav-order' %}
+  {% for destination in destinations %}
 
 
   <div class="bob  {% cycle "", " bob--swap" %} vpad--lg">
@@ -42,7 +42,7 @@ intro: >
       </a>
     </div>
     <div class="bob__text">
-      <h3 class="title title--lg bv-divider text--bold">{{destination.title}}</h3>
+      <h3 class="title title--md bv-divider text--bold">{{destination.title}}</h3>
 
       <p class="text--md">{{destination.intro.content}}</p>
       <div class="space--md"></div>
@@ -50,7 +50,7 @@ intro: >
     </div>
   </div>
 
-{% endfor %}
+  {% endfor %}
 
 
 </div>

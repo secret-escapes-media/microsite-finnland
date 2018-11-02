@@ -7,12 +7,12 @@ nav-order: 8
 
 
 banner:
-  title: Fotogene Reiseziele
-  title-sub: Ausgesucht von Secret Escapes
+  title-sup: Fotogene
+  title: Reiseziele
 
 intro:
   long: >
-    <p class="text--lg">Starten Sie hier, um Ihr eigenes Foto-Abenteuer in bildschönen Ländern zu planen</p>
+    <p class="text--xl text--bold">Starten Sie hier, um Ihr eigenes Foto-Abenteuer in bildschönen Ländern zu planen</p>
     <p class="text--lg">Unsere Reisen nach Island, Marokko und New York haben Sie auf den Geschmack gebracht? Scrollen Sie sich durch luxuriöse Angebote in allen drei Destinationen und bereiten Sie Ihr eigenes Abenteuer vor. Jedes dieser Angebote beinhaltet auch einen Foto-Reiseführer, damit auch Sie das beste aus Ihrem Bildern holen können und Sie haben die Möglichkeit, Ihre Fotos anschließend als Buch drucken zu lassen – für bleibende Erinnerungen. </p>
 ---
 
@@ -30,32 +30,17 @@ intro:
 
 <div class="container vpad--xl">
 
-  {% assign kuusamo-offers = site.data.offers | where:'group','kuusamo' | sort:'saved' | reverse %}
-  <div class="wp" id="kuusamo"></div>
-  <div class="vpad--xl">
-    <div class="text--center">
-      <h2 class="title title--lg text--bold bv-divider">Kuusamo</h2>
-          <div class="space--lg"></div>
-    </div>
-    <div class="row row--xl-6-6 row--gutters-lg">
-      {% for offer in kuusamo-offers %}
-        <div class="col">
-          {% include offer/offer.html %}
-        </div>
-      {% endfor %}
-    </div>
-  </div>
 
 
-  {% assign helsinki-offers = site.data.offers | where:'group','helsinki' | sort:'saved' | reverse %}
-  <div class="wp" id="helsinki"></div>
-  <div class="vpad--xl">
+
+  <div class="wp" ></div>
+  <div class="vpad--md">
     <div class="text--center">
-      <h2 class="title title--lg text--bold">Helsinki & Espoo</h2>
-            <div class="space--lg"></div>
+      <h2 class="title title--xl text--bold bv-divider">Angebote</h2>
+            <div class="space--xl"></div>
     </div>
     <div class="row row--xl-6-6 row--gutters-lg">
-      {% for offer in helsinki-offers %}
+      {% for offer in site.data.offers %}
         <div class="col">
           {% include offer/offer.html %}
         </div>
