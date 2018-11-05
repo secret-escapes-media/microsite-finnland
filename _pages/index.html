@@ -3,14 +3,15 @@ layout: default
 id: overview
 nav: true
 nav-order: 1
-title: Überblick
+nav-title: Überblick
+title: Finnland
 
 banner:
   title-sup: Wilde Natur & urbanes Design
   title: Finnland
 
 intro: >
-  <p class="text--lg text--light">Wie fotogen ist Finnland? Das wollten wir zusammen mit NIKON Fotograf André herausfinden und haben ihn mit der Unterstützung von Visit Finland im September 2018 nach Finnland geschickt. Seine Reise führte ihn von Kuusamo, südlich von Lappland, über Helsinki nach Espoo. Immer mit dabei: die Systemkamera Nikon Z7. </p>
+  <p class="text--lg text--light bv-mob-left">Wie fotogen ist Finnland? Das wollten wir zusammen mit NIKON Fotograf André herausfinden und haben ihn mit der Unterstützung von Visit Finland im September 2018 nach Finnland geschickt. Seine Reise führte ihn von Kuusamo, südlich von Lappland, über Helsinki nach Espoo. Immer mit dabei: die Systemkamera&nbsp;Nikon&nbsp;Z7. </p>
 
 
 
@@ -25,8 +26,7 @@ intro: >
 </div>
 
 
-
-
+<!---- Regions ----->
 
 
 <div class="container vpad--xxl">
@@ -35,23 +35,19 @@ intro: >
   {% for destination in destinations %}
 
 
-  <div class="bob  {% cycle "", " bob--swap" %} vpad--lg">
+  <div class="bob  {% cycle '', 'bob--swap' %} ">
     <div class="bob__img">
-      <a href="{{site.baseurl}}{{destination.url}}" id="tracking-nikon-{{feature.id}}-image" class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/banner/{{destination.id}}.jpg);" >
-
-      </a>
+      <a href="{{site.baseurl}}{{destination.url}}" id="tracking-nikon-{{feature.id}}-image" class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/banner/{{destination.id}}.jpg);" ></a>
     </div>
     <div class="bob__text">
       <h3 class="title title--md bv-divider text--bold">{{destination.title}}</h3>
-
       <p class="text--md">{{destination.intro.content}}</p>
-      <div class="space--md"></div>
+      <div class="space--lg"></div>
       <a href="{{site.baseurl}}{{destination.url}}"  class="btn btn--solid" >Jetzt entdecken</a>
     </div>
   </div>
 
   {% endfor %}
-
 
 </div>
 

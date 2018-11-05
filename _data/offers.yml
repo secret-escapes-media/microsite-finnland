@@ -1,163 +1,51 @@
-################################################################################
-#
-#   kuusamo
-#
-################################################################################
+
+
+- title: Winterliche Blockhüttenromantik in Finnland
+  id: hawkhill-nature
+  location: Hawkhill Nature, Nuuksio-Nationalpark, Tervalampi, Finnland
+  description:  Exklusiver Hüttenzauber am Waldsee im Nationalpark inkl. Fußbad & Endreinigung
+  price: 61
+  price-description: pro Person - basierend auf 4 Personen
+  saved: 21
+  link: http://bit.ly/2AMkZQH
 
 - group: kuusamo
-  title: Phänomenale Naturerlebnisse in Island
-  id: phanomenale-naturerlebnisse-in-island
-  location: Hótel Ísland, Reykjavík, Island
-  description: Polarlichtmagie und winterliche Naturabenteuer auf Island
-  price: 699
+  title: Schneeweiße Abenteuer im hohen Norden Finnlands
+  id: levi-hotel
+  location: Levi Hotel Spa, Levi, Finnland
+  description: "Inkl. Flügen, Halbpension, Schneeschuhwanderung, Motorschlittensafari zur Rentierfarm & mehr "
+  price: 749
   price-description: pro Person für 3 Nächte
-  saved: 24
-  link: http://bit.ly/2sR31YH
+  saved: 25
+  link: http://bit.ly/2JF0g3R
+  flight-tag: true
 
-- group: kuusamo
-  title: Moderne Welt & unberührte Natur in Island
-  id: moderne-welt-unberührte-natur-in-island
-  location: CenterHotel Skjaldbreid, Reykjavik, Island
-  description: "Winterliche Entdeckerreise auf die Vulkaninsel – inkl. Frühstück & spätem Check-out"
-  price: 125
-  price-description: pro Zimmer pro Nacht
-  saved: 43
-  link: http://bit.ly/2I2Lz8f
 
-- group: kuusamo
-  title: "Spektakulär & wunderschön: Islands Winterwelt"
-  id: spektakulär-wunderschön-islands-winterwelt
-  location: kuusamoair Hotel Reykjavík Marina, Reykjavík, Island
-  description: "Islands Polarlichter und Natur entdecken – inkl. Flügen, Transfers, Frühstück & Touren nach Wahl "
-  price: 769
+- title: "Winterauszeit in Finnlands Naturpracht"
+  id: petays-resort
+  location: Petäys Resort,Tyrväntö, Finnland
+  description: "Wohlfühlen & den Alltag vergessen – inkl. Frühstück oder Halbpension & Privatsauna  "
+  price: 55
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 39
+  link: http://bit.ly/2zr5P15
+
+- title: "Lappland: Polarglitzern im Winterwunderland"
+  id: luxury-lodge
+  location: L7 Luxury Lodge, Äkäslompolo, Lappland, Finnland
+  description: "Inkl. Flügen, Transfers, All-inclusive, Schneeschuhwanderung, Schneemobilsafari & Extras "
+  price: 1439
   price-description: pro Person für 3 Nächte
-  saved: 18
-  link: http://bit.ly/2yo16jF
+  saved: 23
+  link: http://bit.ly/2OvH9KE
+  flight-tag: true
 
-- group: kuusamo
-  title: Malerisches Island & Kreuzfahrt durch Grönland
-  id: malerisches-island-kreuzfahrt-durch-grönland
-  location: MS Ocean Diamond
-  description: "Polarmeer-Kreuzfahrt – inkl. Flug ab Island, Exkursionen & optional Flügen ab Deutschland "
-  price: 2649
-  price-description: pro Person für 10 Nächte
-  saved: 53
-  link: http://bit.ly/2ypOOqY
-
-- group: kuusamo
-  title: Erlebnisreise zu den Wundern Islands
-  id: erlebnisreise-zu-den-wundern-islands
-  location: Reykjavík, Golden-Circle, Vík, Jökulsarlon, Südküste, Blaue Lagune
-  description: "Packende Reise zu den Highlights Islands – inkl. Flügen, Transfers, Frühstück, Touren & Extras "
-  price: 1099
-  price-description: pro Person für 4 Nächte
-  saved: 24
-  link: http://bit.ly/2tiW2ao
-
-
-
-################################################################################
-#
-#   helsinki
-#
-################################################################################
-
-- group: helsinki
-  title: WestHouse Hotel
-  id: westhouse-hotel
-  location: Manhattan, New York, USA
-  description: Ein Hauch von altem Hollyood im Herzen Manhattans
-  price: 127
-  price-description: pro Zimmer pro Nacht
-  saved: 46
-  link: http://bit.ly/2k5RTm1
-
-- group: helsinki
-  title: Park Central Hotel
-  id: park-central-hotel
-  location: Manhattan, New York, USA
-  description: In einer Hotelikone aus der Jazz-Ära mitten im Zentrum von Manhattan logieren
-  price: 97
-  price-description: pro Zimmer pro Nacht
-  saved: 31
-  link: http://bit.ly/2KlzlJA
-
-- group: helsinki
-  title: Eleganter Komfort im Herzen von Brooklyn
-  id: eleganter-komfort-im-herzen-von-brooklyn
-  location: Dazzler Brooklyn, New York, USA
-  description: Nahe der Brooklyn Bridge und Manhattans Skyline stilvoll modern residieren
-  price: 130
-  price-description: pro Unterkunft pro Nacht
-  saved: 33
-  link: http://bit.ly/2rDdwhS
-
-- group: helsinki
-  title: The Willamsburg Hotel
-  id: the-willamsburg-hotel
-  location: Brooklyn, New York, USA
-  description: Designverliebtes Boutiquehotel mit Manhattan-Panorama
-  price: 164
-  price-description: pro Zimmer pro Nacht
-  saved: 45
-  link: http://bit.ly/2KTY7lf
-
-- group: helsinki
-  title: The Wagner at the Battery
-  id: the-wagner-at-the-battery
-  location: Lower Manhattan, New York, USA
-  description: Elegantes NYC-Hotel mit Blick auf den Hudson River und die Freiheitsstatue
-  price: 188
-  price-description: pro Zimmer pro Nacht
-  saved: 28
-  link: http://bit.ly/2LDVBjd
-
-- group: helsinki
-  title: Iberostar 70 Park Avenue
-  id: iberostar-70-park-avenue
-  location: New York, USA
-  description: Stylischer Boutique-Charme im Herzen Manhattans
-  price: 176
-  price-description: pro Zimmer pro Nacht
-  saved: 41
-  link: http://bit.ly/2kwsDFE
-
-- group: helsinki
-  title: The Roger New York
-  id: the-roger-helsinki
-  location: Midtown Manhattan, New York, USA
-  description: Urbaner helsinki-Lifestyle mit Bestlage im NoMad-Viertel
-  price: 126
-  price-description: pro Zimmer pro Nacht
-  saved: 48
-  link: http://bit.ly/2y0YyI8
-
-- group: helsinki
-  title: Paramount Hotel
-  id: paramount-hotel
-  location: Times Square, Manhattan, New York, USA
-  description: Historisches Boutiquehotel im Herzen Manhattans
-  price: 114
-  price-description: pro Zimmer pro Nacht
-  saved: 40
-  link: http://bit.ly/2JvQ7db
-
-- group: helsinki
-  title: The William
-  id: the-william
-  location: New York City, USA
-  description: "New York super zentral: Boutiquehotel unweit des Times Square"
-  price: 162
-  price-description: pro Zimmer pro Nacht
-  saved: 55
-  link: http://bit.ly/2Ml8YoN
-
-- group: helsinki
-  title: Einmal am Times Square Silvester feiern
-  id: einmal-am-times-square-silvester-feiern
-  location: Millennium Hilton New York Downtown, New York, USA
-  description: "New York zum Jahreswechsel: Unvergessliches Silvester im Big Apple"
-  price: 1399
-  price-description: pro Person für 4 Nächte
-  saved: 8
-  link: http://bit.ly/2LGSIxm
+- title: "Nur 24h: Reise zum Polarkreis & Weihnachtsmann"
+  id: yllas-lake-hotel
+  location: Ylläs Lake Hotel, Lappland, Finnland
+  description: "Inkl. Flügen, Halbpension, Weihnachtsmann-Besuch, Ausflügen nach Wahl & Extras "
+  price: 729
+  price-description: pro Person für 3 Nächte
+  saved: 25
+  link: http://bit.ly/2zstyhA
+  flight-tag: true

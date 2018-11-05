@@ -89,13 +89,14 @@
   font-family: $font-title-01;
   font-weight: 600;
   line-height: 1;
+  hyphens: auto;
   text-transform: uppercase;
   @include font-smoothing;
 
   font-size: $s7;
-  letter-spacing: .3rem;
+  letter-spacing: .1rem;
   @include bp($md){
-    letter-spacing: .3rem;
+    letter-spacing: .1rem;
     font-size: $s8;
   }
   @include bp($xxl){

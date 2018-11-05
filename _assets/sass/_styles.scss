@@ -20,23 +20,6 @@
 
 
 
-.iam {
-  &__chasing {
-    width: 400px;
-    max-width: 90%;
-    margin: auto auto $s4;
-    background-image: url('../img/content/iamchasing.svg');
-    background-size: cover;
-    &:after {
-      content: "";
-      display: block;
-      width: 100%;
-      padding-top: 9.44%;
-    }
-  }
-}
-
-
 
 .journey {
   // Video section
@@ -97,67 +80,26 @@
 
 
 
-.testimonial {
-  position: relative;
-  &__carousel {
-    position: relative;
-  }
-  &__slide {
-    @include background-attributes();
-    min-height: 500px;
-    padding: $s10 0;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-  &__content {
-    margin-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    &-image {
-      height: 50px;
-      width: 50px;
-      display: inline-block;
-      margin-right: 10px;
-      vertical-align: middle;
-    }
-  }
-
-  .carousel-nav { pointer-events: none; }
-  .carousel-navitem { pointer-events: all; }
-}
-
-.carousel-navitem-next:after {
-    right: 0;
-    background-image: url(../img/icons/arrow-right.png);
-}
-
-
-
-.inspiration {
-  &__gallery {
-    position: relative;
-    &-content { position: relative; z-index: 1; }
-    &-fade {
-      z-index: $z-content;
-      height: 30%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-image: url(../img/icons/gradient--grey-darkest.png);
-      background-size: auto 100%;
-      background-repeat: repeat-x;
-      background-position: bottom;
-    }
-  }
-}
-
 
 
 .competition {
   &__form {
     overflow: hidden;
   }
+}
+
+
+.bv-link-nikon{ color:$n-yellow; }
+
+.bv-mob-left {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+
+  .bv-mob-left {
+  text-align: left;
+  //color: #ff0;
+}
 }
 
 
@@ -173,7 +115,7 @@
   color: $white;
   font-size: $s6;
   letter-spacing: -1px;
-  margin: -10px 0 -8px 2px;}
+  margin: 0 0 -2px 2px;}
 
 
 
@@ -181,18 +123,14 @@
 
     font-family: $font-title-01;
     left: 50%;
-    //margin-left: -.8em;
     width: 1.7em;
     height: 1.7em;
     margin: 0 auto;
-    //border: 1px solid $white;
-    //border-radius: $circle-height;
     background-repeat: no-repeat ;
-    //background-color: $vf-blue;
-    background-image: url('../img/icons/arrow-right.svg');
+    background-image: url('../img/icons/arrow-left.svg');
     background-size: auto (1.2em/.6);
     background-position: 52% center;
-    transform: rotate(90deg);
+    transform: rotate(270deg);
   }
 
 
@@ -219,50 +157,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-    &--darkest   {
-      background-attachment: fixed;
-      background-color: rgba(0,0,0,0.8);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-      &--darker   {
-      background-attachment: fixed;
-      background-color: rgba(0,0,0,0.65);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-      &--dark   {
-      background-attachment: fixed;
-      background-color: rgba(0,0,0,0.5);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-      &--lightest   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.9);
-      background-blend-mode: lighten;
-      background-position: center;
-      background-size: cover;
-      }
-
-      &--lighter   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.7);
-      background-blend-mode: lighten;
-      background-position: center;
-      background-size: cover;
-      }
-
-      &--light   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.6);
-      background-blend-mode: color;
-      background-position: center;
-      background-size: cover; }
-
 }
 
 
@@ -277,31 +171,28 @@
     }
 }
 
-
 .bv-parallax{
       background-attachment: scroll;
       background-size: cover;
 
-    &--darkest   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--darker   {
-      background-attachment: scroll;
-      background-size: cover;
-      }
-    &--dark   {
-      background-attachment: scroll;
-      background-size: cover;
-        }
-    &--lighter   {
-      background-attachment: scroll;
-      background-size: cover;
-      }
-    &--light   {
-      background-attachment: scroll;
-      background-size: cover;
-       }
       }
 
+}
+
+
+
+
+/*************** offer tag for included tag *******************/
+
+.flight-tag {
+  position: absolute;
+  top: $s-2;
+  left: $s-2;
+  display: block;
+  width: 50%;
+  @include bp($sm){
+    top: $s0;
+    left: $s0;
+    width: 146px;
+  }
 }

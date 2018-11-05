@@ -40,12 +40,12 @@ $offer-max-width: 600px;
   }
   &__location {
     margin-top: .9em;
-    margin-left: 1.5em;
+    //margin-left: 1.5em;
     margin-bottom: 1.15em;
-    text-indent: -1.5em;
-    font-size: 0.75em;
+    //text-indent: -1.5em;
+    font-size: 0.85em;
     line-height: 1.5;
-    color: $vf-blue;
+    color: $vf-darkblue;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
@@ -88,12 +88,13 @@ $offer-max-width: 600px;
       display: inline-block;
       width: $circle-height;
       height: $circle-height;
+      margin-top: 10px;
       margin-left: $s-6;
       text-align: center;
       color: #fff;
       font-weight: 400;
       line-height: $circle-height;
-      background-color: $vf-blue;
+      background-color: $vf-darkblue;
       border-radius: $circle-height;
     }
   }
@@ -110,7 +111,7 @@ $offer-max-width: 600px;
     background-color: $grey-lighter;
   }
   &__price {
-    color: $vf-blue;
+    color: $vf-darkblue;
     font-size: $s2;
     font-weight: 400;
     line-height: 1;

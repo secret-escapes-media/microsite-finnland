@@ -6,6 +6,7 @@ layout: default
 
 
 <!-- INTRO SECTION -->
+
 <div class="bg--grey-darker">
   <div class="wp" id="guide"></div>
   <div class="container text--lg vpad--xxl text--center">
@@ -41,7 +42,6 @@ layout: default
   <div class="wp" id="guide"></div>
   <div class="container vpad--xxl text--center">
       <h3 class="title title--xl text--bold bv-divider">{{section.title}}</h3>
-
     {{section.intro}}
   </div>
   <div class="bv-arrow"></div>
@@ -59,7 +59,7 @@ layout: default
           <div class="col">
             <a href="javascript:void(0);" data-modal-item="{{poi.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);">
             <span class="bg-img__expand"></span></a>
-            <div class="space--sm"></div>
+            <div class="space--md"></div>
             <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
             <p>{{poi.content}}</p>
           </div>
@@ -67,6 +67,7 @@ layout: default
 
           {% endfor %}
     </div>
+    <div class="space--sm"></div>
   </div>
 </div>
 

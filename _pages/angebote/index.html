@@ -7,43 +7,27 @@ nav-order: 8
 
 
 banner:
-  title-sup: Fotogene
-  title: Reiseziele
+  title-sup: Finnland
+  title: Angebote
 
-intro:
-  long: >
-    <p class="text--xl text--bold">Starten Sie hier, um Ihr eigenes Foto-Abenteuer in bildschönen Ländern zu planen</p>
-    <p class="text--lg">Unsere Reisen nach Island, Marokko und New York haben Sie auf den Geschmack gebracht? Scrollen Sie sich durch luxuriöse Angebote in allen drei Destinationen und bereiten Sie Ihr eigenes Abenteuer vor. Jedes dieser Angebote beinhaltet auch einen Foto-Reiseführer, damit auch Sie das beste aus Ihrem Bildern holen können und Sie haben die Möglichkeit, Ihre Fotos anschließend als Buch drucken zu lassen – für bleibende Erinnerungen. </p>
+
 ---
 
 
 <!-- INTRO SECTION -->
-<div class="bg--grey-darker">
-  <div class="wp" id="guide"></div>
-  <div class="container vpad--xxl text--center">
-    {{page.intro.long}}
-  </div>
-  {% if page.page-nav %}{% include nav/page.html %}{% endif %}
-</div>
 
 
 
 <div class="container vpad--xl">
 
-
-
-
   <div class="wp" ></div>
   <div class="vpad--md">
-    <div class="text--center">
-      <h2 class="title title--xl text--bold bv-divider">Angebote</h2>
-            <div class="space--xl"></div>
-    </div>
+  
     <div class="row row--xl-6-6 row--gutters-lg">
       {% for offer in site.data.offers %}
-        <div class="col">
-          {% include offer/offer.html %}
-        </div>
+      <div class="col">
+      {% include offer/offer.html %}
+      </div>
       {% endfor %}
     </div>
   </div>
