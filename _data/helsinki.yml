@@ -89,7 +89,7 @@
   orientation: landscape
   photographer: "&nbsp;"
   page: helsinki # group for whole page
-  section: one # group for section of page
+  section: two # group for section of page
   pages: # modal required on these pages
     - id: helsinki
 
@@ -102,7 +102,7 @@
   orientation: landscape
   photographer: "D850"
   page: helsinki # group for whole page
-  section: one # group for section of page
+  section: two # group for section of page
   pages: # modal required on these pages
     - id: helsinki
 
@@ -116,6 +116,6 @@
   show: display:none
   photographer: "&nbsp;"
   page: helsinki # group for whole page
-  section: one # group for section of page
+  section: two # group for section of page
   pages: # modal required on these pages
     - id: helsinki

@@ -9,8 +9,7 @@
   saved: 21
   link: http://bit.ly/2AMkZQH
 
-- group: kuusamo
-  title: Schneeweiße Abenteuer im hohen Norden Finnlands
+- title: Schneeweiße Abenteuer im hohen Norden Finnlands
   id: levi-hotel
   location: Levi Hotel Spa, Levi, Finnland
   description: "Inkl. Flügen, Halbpension, Schneeschuhwanderung, Motorschlittensafari zur Rentierfarm & mehr "
@@ -38,16 +37,6 @@
   price-description: pro Person für 3 Nächte
   saved: 23
   link: http://bit.ly/2OvH9KE
-  flight-tag: true
-
-- title: "Nur 24h: Reise zum Polarkreis & Weihnachtsmann"
-  id: yllas-lake-hotel
-  location: Ylläs Lake Hotel, Lappland, Finnland
-  description: "Inkl. Flügen, Halbpension, Weihnachtsmann-Besuch, Ausflügen nach Wahl & Extras "
-  price: 729
-  price-description: pro Person für 3 Nächte
-  saved: 25
-  link: http://bit.ly/2zstyhA
   flight-tag: true
 
 - title: "Mökki – Ferienhausurlaub auf finnische Art"
