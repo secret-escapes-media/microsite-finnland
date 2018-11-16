@@ -29,15 +29,14 @@
   saved: 39
   link: http://bit.ly/2zr5P15
 
-- title: "Lappland: Polarglitzern im Winterwunderland"
-  id: luxury-lodge
-  location: L7 Luxury Lodge, Äkäslompolo, Lappland, Finnland
-  description: "Inkl. Flügen, Transfers, All-inclusive, Schneeschuhwanderung, Schneemobilsafari & Extras "
-  price: 1439
-  price-description: pro Person für 3 Nächte
-  saved: 23
-  link: http://bit.ly/2OvH9KE
-  flight-tag: true
+- title: "Ski-Eldorado im Norden Finnlands"
+  id: arctic-zone
+  location: Hotel Arctic Zone, Ruka-Kuusamo, Lappland, Finnland
+  description: "Wintersport in der weite Lapplands - inkl. Frühstück"
+  price: 25
+  price-description: ppro Person - basierend auf 4 Personen
+  saved: 20
+  link: http://bit.ly/2PlYISu
 
 - title: "Mökki – Ferienhausurlaub auf finnische Art"
   id: moekki
@@ -47,3 +46,23 @@
   price-description: pro Person - basierend auf 9 Personen
   saved: 32
   link: http://bit.ly/2zrQDRq
+
+- title: "Finnischer Winterzauber im Nordlicht-Dorf"
+  id: ivalo
+  location: "Ivalo, Lappland, Finnland"
+  description: "Polarlicht-Magie, Schneeschuh-Tour & Rentierfütterung inkl. Flügen & Halbpension "
+  price: 1.129
+  price-description: pro Person für 3 Nächte
+  saved: 23
+  link: http://bit.ly/2PqNbRM
+  flight-tag: true
+
+- title: "Iglu-Romantik am Polarkreis"
+  id: rovaniemi
+  location: "Rovaniemi, Lappland, Finnland"
+  description: "Inkl. Flügen, Übernachtung im Glas-Iglu, Husky-Safari, Zoo-Eintritt & vielen Extras"
+  price: 1.579
+  price-description: pro Person für 4 Nächte
+  saved: 23
+  link: http://bit.ly/2PStMsl
+  flight-tag: true
