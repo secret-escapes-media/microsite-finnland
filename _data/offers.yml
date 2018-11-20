@@ -1,54 +1,15 @@
-
-
-- title: Winterliche Blockhüttenromantik in Finnland
-  id: hawkhill-nature
-  location: Hawkhill Nature, Nuuksio-Nationalpark, Tervalampi, Finnland
-  description:  Exklusiver Hüttenzauber am Waldsee im Nationalpark inkl. Fußbad & Endreinigung
-  price: 61
-  price-description: pro Person - basierend auf 4 Personen
-  saved: 21
-  link: http://bit.ly/2AMkZQH
-
-- title: Schneeweiße Abenteuer im hohen Norden Finnlands
-  id: levi-hotel
-  location: Levi Hotel Spa, Levi, Finnland
-  description: "Inkl. Flügen, Halbpension, Schneeschuhwanderung, Motorschlittensafari zur Rentierfarm & mehr "
-  price: 749
-  price-description: pro Person für 3 Nächte
-  saved: 25
-  link: http://bit.ly/2JF0g3R
-  flight-tag: true
-
-
-- title: "Winterauszeit in Finnlands Naturpracht"
-  id: petays-resort
-  location: Petäys Resort,Tyrväntö, Finnland
-  description: "Wohlfühlen & den Alltag vergessen – inkl. Frühstück oder Halbpension & Privatsauna  "
-  price: 55
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 39
-  link: http://bit.ly/2zr5P15
-
 - title: "Ski-Eldorado im Norden Finnlands"
-  id: arctic-zone
+  id: ski-eldorado-im-norden-finnlands
   location: Hotel Arctic Zone, Ruka-Kuusamo, Lappland, Finnland
   description: "Wintersport in der weite Lapplands - inkl. Frühstück"
   price: 25
   price-description: ppro Person - basierend auf 4 Personen
   saved: 20
   link: http://bit.ly/2PlYISu
-
-- title: "Mökki – Ferienhausurlaub auf finnische Art"
-  id: moekki
-  location: "Eerikkila Sport & Outdoor Resort, Tämmela, Kanta-Häme, Finnland"
-  description: "Sport und Erholung in der Wald- und Seenlandschaft Südfinnlands – inkl. Frühstück  "
-  price: 31
-  price-description: pro Person - basierend auf 9 Personen
-  saved: 32
-  link: http://bit.ly/2zrQDRq
+  flight-tag: #
 
 - title: "Finnischer Winterzauber im Nordlicht-Dorf"
-  id: ivalo
+  id: finnischer-winterzauber-im-nordlicht-dorf
   location: "Ivalo, Lappland, Finnland"
   description: "Polarlicht-Magie, Schneeschuh-Tour & Rentierfütterung inkl. Flügen & Halbpension "
   price: 1.129
@@ -58,11 +19,41 @@
   flight-tag: true
 
 - title: "Iglu-Romantik am Polarkreis"
-  id: rovaniemi
+  id: iglu-romantik-am-polarkreis
   location: "Rovaniemi, Lappland, Finnland"
   description: "Inkl. Flügen, Übernachtung im Glas-Iglu, Husky-Safari, Zoo-Eintritt & vielen Extras"
   price: 1.579
   price-description: pro Person für 4 Nächte
   saved: 23
   link: http://bit.ly/2PStMsl
+  flight-tag: true
+
+- title: Nordlicht-Magie & Winterwunder in Lappland
+  id: nordlicht-magie-winterwunder-in-lappland
+  location: Ylläs Lake Hotel, Lappland, Finnland
+  description: Inkl. Flügen, Frühstück, Schneeschuhtour, Motorschlittenfahrt & mehr Ausflügen auf Wunsch
+  price: 749
+  price-description: pro Person für 3 Nächte
+  saved: 27
+  link: http://bit.ly/2DMvMwF
+  flight-tag: true
+
+- title: Winterwunder in Finnlands Schneeparadies Levi
+  id: winterwunder-in-finnlands-schneeparadies-levi
+  location: Break Sokos Hotel Levi, Lappland, Finnland
+  description: Inkl. Nonstop-Flügen, Frühstück, Iglubau-Workshop oder Husky-Safari & option. Zimmer mit Sauna
+  price: 699
+  price-description: pro Person für 3 Nächte
+  saved: 24
+  link: http://bit.ly/2qRCER2
+  flight-tag: true
+
+- title: "Sommer mal anders: Unvergessliches Nordfinnland"
+  id: sommer-mal-anders-unvergessliches-nordfinnland
+  location: Hotel RukaVillage30, Ruka, Kuusamo, Finnland
+  description: Inkl. Flügen, Transfers, Frühstück, Rafting-Tour & Extras
+  price: 779
+  price-description: pro Person für 4 Nächte
+  saved: 22
+  link: http://bit.ly/2zkAbmL
   flight-tag: true
